@@ -18,8 +18,8 @@ class sedMember
 
     public function register_gravity_form()
     {
-        $form = GFAPI::get_form(3);
-        file_put_contents(__DIR__ . '/form.dat', serialize($form));
+//        $form = GFAPI::get_form(3);
+//        file_put_contents(__DIR__ . '/form.dat', serialize($form));
 
         global $wpdb;
         $form_title = 'Nutzereinstellungen';
